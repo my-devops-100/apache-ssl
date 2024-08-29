@@ -1,1 +1,4 @@
 .DS_Store
+.vagrant
+openssl-3.0.14.tar.gz
+openssl-3.0.14
