@@ -20,3 +20,14 @@
     with_items:
       - build-essential
       - net-tools
+      - libapr1-dev
+      - libaprutil1-dev
+      - libpcre2-dev
+
+  # - name: Runtime Environment
+  #   lineinfile:
+  #     dest: "/etc/environment"
+  #     regexp: "{{ item.regexp}}"
+  #     line: "{{ item.line }}"
+  #   with_items:
+  #     - { regexp: '^LD_LIBRARY_PATH', line: 'LD_LIBRARY_PATH=/opt/openssl/lib64' }
