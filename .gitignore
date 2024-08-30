@@ -2,3 +2,7 @@
 .vagrant
 openssl-3.0.14.tar.gz
 openssl-3.0.14
+httpd-2.4.62.tar.gz
+nginx-1.26.2.tar.gz
+httpd-2.4.62
+nginx-1.26.2
